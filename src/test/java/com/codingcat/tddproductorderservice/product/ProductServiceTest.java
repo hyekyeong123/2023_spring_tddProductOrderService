@@ -13,9 +13,6 @@ class ProductServiceTest {
   @Test
   void 상품등록(){
     AddProductRequest request = 상품등록요청_생성();
-//    productService.addProduct(request);
-
-    // API 요청
   }
 
   private static AddProductRequest 상품등록요청_생성(){

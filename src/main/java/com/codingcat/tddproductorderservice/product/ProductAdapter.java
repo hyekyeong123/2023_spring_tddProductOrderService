@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 class ProductAdapter implements ProductPort {
 
-  private ProductRepository productRepository;
+  private final ProductRepository productRepository;
 
   ProductAdapter(ProductRepository productRepository) {
     this.productRepository = productRepository;

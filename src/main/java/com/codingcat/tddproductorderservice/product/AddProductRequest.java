@@ -2,7 +2,7 @@ package com.codingcat.tddproductorderservice.product;
 
 import org.springframework.util.Assert;
 
-record AddProductRequest(String name, int price, DiscountPolicy discountPolicy) {
+record AddProductRequest(String name, Integer price, DiscountPolicy discountPolicy) {
 
   AddProductRequest {
     // 유효성 검사
